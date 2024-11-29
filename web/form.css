@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+    color: #169e00;
+  }
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .header-area {
+    display: flex;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+  .nav-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+  }
+
+  .menu-item {
+    color: #169e00;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    cursor: pointer;
+  }
+
+  .menu-item-cta a{
+    color: white;
+    background-color: #169e00;
+  }
+
+  .menu-item-cta {
+    border-radius: 14px;
+    background-color: #169e00 ;
+    color: white ;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    padding: 10px;
+    cursor: pointer;
+}
+.logo-item{
+    cursor: pointer;
+}
+
+
+/* Hero Section */  
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%px;
+    height: 474px;
+    background-color: #169e00;
+}
+.talk{
+   font-weight: 700;
+   font-size: 96px;
+   line-height: 117px;
+   
+    color: white;
+}
+
+.lets{
+    
+    display: flex;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 78px;
+    color: #169e00;
+
+    margin-left: 100px;
+    
+}
+
+
+.par{
+  display: flex;
+align-items: center;
+  width: 85%;
+    margin-top: auto;
+    margin-left: 100px;
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 39px;
+    color: rgba(163, 163, 163, 1);
+    
+}
+     /* forms */
+
+.forms{
+  
+    width:90%;
+    height:910px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #169e00;
+    border-radius: 42px; 
+}
+
+
+.registration-form p{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    padding-left: 30px;
+   padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.in2 input {
+    width: 90%;
+    height: 85px;
+    margin-left: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+
+.thak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 85px;
+    margin: auto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    background-color: rgba(0, 42, 150, 1);
+    color: white;
+    cursor: pointer;
+    
+
+}
+
+/* footer  */
+
+.footer-container{
+  background-color:rgba(0, 42, 150, 1);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 365px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.f1{
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+
+}
+.ec{
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+
+}
+.para{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+/* 2nd footer */
+
+.f2{
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+color: rgba(255, 255, 255, 1);
+margin-top: 80px;
+}
+
+.num1{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.email{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+/* footer 3  */
+
+.f3{
+  font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+color: rgba(255, 255, 255, 1);
+
+
+}
+.free{
+  margin-top: 30px;
+}
+
+
+.easy{
+  font-weight: 500;
+  font-size: 16px;
+  
+  
+}
+.down{
+   font-weight: 500;
+  font-size: 16px;
+margin-top: -20px;
+color: rgba(255, 255, 255, 1);
+
+ 
+}
+
+form{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 23px;
+
+}
+input {
+  height: 36px;
+  width: 222px;
+}
+
+.lastsubs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 65px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  border-radius: 20px;
+ background-color: #169e00;
+ color: white;
+ background-color: #169e00;
+ cursor: pointer;
+}
+
+/* footer 4 */
+
+
+.Quick{
+  margin-top: 27px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: rgba(255, 255, 255, 1);
+  
+
+}
+
+
+.loose{
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+}
+.sa{
+  display: flex;
+  justify-content: space-around;
+ margin-left: -20px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
